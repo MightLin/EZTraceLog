@@ -1,2 +1,5 @@
 /EZTraceLog/bin
 /EZTraceLog/obj
+/TestResults
+/EZTraceLogTests/bin
+/EZTraceLogTests/obj
