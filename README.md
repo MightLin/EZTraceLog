@@ -1,6 +1,6 @@
 Sample
 
-```c
+```c#
 // set the log file path and file Name
 TraceLog.SetLogFile("D:\AppData\Log"), "TestLogConsole");
 
