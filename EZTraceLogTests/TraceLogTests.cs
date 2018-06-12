@@ -14,7 +14,16 @@ namespace EZTraceLog.Tests
 		[TestMethod()]
 		public void InfoWriteTest()
 		{
-			EZTraceLog.TraceLog.InfoWrite("test", "test message");
+
+			TraceLog.InfoWrite("main", "Start Process");
+
+			TraceLog.DebugWrite("methodName", "This is debug log");
+
+			TraceLog.WarnWrite("className", "This is warn log");
+
+			TraceLog.ErrorWrite("canTypeAnything", "This is error log");
+
+			TraceLog.InfoWrite("main", "End Process");
 		}
 	}
 }

@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
 [assembly: AssemblyTitle("EZTraceLog")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Easy Trace Log")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Might Lin")]
 [assembly: AssemblyProduct("EZTraceLog")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

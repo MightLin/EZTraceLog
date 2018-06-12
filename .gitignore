@@ -3,3 +3,8 @@
 /TestResults
 /EZTraceLogTests/bin
 /EZTraceLogTests/obj
+.vs/EZTraceLog/v14/.suo
+/.vs
+/EZTraceLog/*.nupkg
+/EZTraceLog/*.user
+/EZTraceLog/*.nuspec
