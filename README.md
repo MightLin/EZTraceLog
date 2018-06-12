@@ -35,11 +35,21 @@ public interface IMsgSender
 {
 	bool Send(string title, string message);
 }
+
+public class MySmtpSender : IMsgSender
+{
+	public bool Send(string title, string message)
+	{
+		// to send mail 
+	}
+}
+
 ```
 
 ```C#
 public void main()
 {
+	MySmtpSender mySmtpSender = new MySmtpSender();
 	TraceLog.ErrMsgSender = mySmtpSender;
 }
 
