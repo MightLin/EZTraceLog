@@ -15,7 +15,7 @@ TraceLog.ErrorWrite("canTypeAnything", "This is error log");
 TraceLog.InfoWrite("main", "End Process");
 ```
 
-result
+Result
 
 D:\AppData\Log\TestLogConsole.2018-06-11.log
 
@@ -25,4 +25,22 @@ D:\AppData\Log\TestLogConsole.2018-06-11.log
 17:22:45.671 [className ][WARN ] This is warn log
 17:22:45.671 [canTypeAnything][ERROR] This is error log
 17:22:45.671 [main      ][INFO ] End Process
+```
+
+
+# You can send error message  when *ErrorWrite*
+
+```c#
+public interface IMsgSender
+{
+	bool Send(string title, string message);
+}
+```
+
+```C#
+public void main()
+{
+	TraceLog.ErrMsgSender = mySmtpSender;
+}
+
 ```
